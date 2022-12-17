@@ -638,6 +638,11 @@ img {
   outline: none;
 }
 
+.subscription-form__input:focus,
+.subscription-form__input:hover {
+  border: 1px solid var(--accent-color);
+}
+
 .subscription-form__field .subscription-form__input::placeholder {
   font-size: 16px;
   line-height: calc(20 / 16);
@@ -901,7 +906,9 @@ img {
 }
 
 .form__input:focus-within,
-.form__text:focus-within {
+.form__input:hover,
+.form__text:focus-within,
+.form__text:hover {
   border: 1px solid #2196f3;
   outline: none;
 }
