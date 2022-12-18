@@ -1,6 +1,6 @@
 .portfolio__title {
   margin-bottom: 50px;
-  @extend %secondary-heading;
+  @include secondary-heading;
 }
 
 .portfolio__title--hidden {

@@ -193,7 +193,7 @@
 }
 
 .form__form-btn {
-  @extend %accent-btn;
+  @include accent-btn;
   display: block;
   padding-left: 52px;
   padding-right: 52px;
@@ -202,6 +202,6 @@
 
   &:hover,
   &:focus {
-    @extend %accent-btn-hover;
+    @include accent-btn-hover;
   }
 }

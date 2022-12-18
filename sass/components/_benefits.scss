@@ -1,5 +1,5 @@
 .benefits__title {
-  @extend %secondary-heading;
+  @include secondary-heading;
 }
 
 .benefits__title--hidden {
@@ -39,7 +39,7 @@
 .benefits__subtitle {
   margin-bottom: 10px;
 
-  @extend %additional-heading;
+  @include additional-heading;
   color: $PrimaryHeadingColor;
 }
 

@@ -1,6 +1,6 @@
 .products__title {
   margin-bottom: 50px;
-  @extend %secondary-heading;
+  @include secondary-heading;
 }
 
 .products__list {
@@ -22,7 +22,7 @@
   padding-bottom: 27px;
   width: 100%;
 
-  @extend %additional-heading;
+  @include additional-heading;
   text-align: center;
 
   color: $SecondaryHeadingColor;

@@ -29,7 +29,7 @@
 }
 
 .hero__button {
-  @extend %accent-btn;
+  @include accent-btn;
   display: block;
   margin: 0 auto;
   padding-right: 32px;
@@ -37,6 +37,6 @@
 
   &:hover,
   &:focus {
-    @extend %accent-btn-hover;
+    @include accent-btn-hover;
   }
 }

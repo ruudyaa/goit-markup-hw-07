@@ -41,7 +41,7 @@
 
 .footer__title {
   margin-bottom: 20px;
-  @extend %additional-heading;
+  @include additional-heading;
   color: $SecondaryHeadingColor;
 }
 
@@ -52,7 +52,7 @@
 .subscription-form__label {
   display: block;
   margin-bottom: 20px;
-  @extend %additional-heading;
+  @include additional-heading;
   color: $SecondaryHeadingColor;
 }
 

@@ -16,7 +16,7 @@
 
   position: relative;
 
-  @extend %header-link;
+  @include header-link;
   color: $FirstLinkColor;
 
   &:hover,
