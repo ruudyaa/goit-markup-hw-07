@@ -1,8 +1,5 @@
 .benefits__title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  color: $PrimaryHeadingColor;
+  @extend %secondary-heading;
 }
 
 .benefits__title--hidden {
@@ -29,23 +26,20 @@
 }
 
 .benefits__image {
-  display: flex;
+  @extend %flex-align-justify;
   margin-bottom: 30px;
   height: 120px;
   width: 270px;
   background-repeat: no-repeat;
   background-position: center;
   background-color: $CinereousBackgroundColor;
-  justify-content: center;
-  align-items: center;
   border-radius: 4px;
 }
 
 .benefits__subtitle {
   margin-bottom: 10px;
 
-  line-height: calc(16 / 14);
-  text-transform: uppercase;
+  @extend %additional-heading;
   color: $PrimaryHeadingColor;
 }
 

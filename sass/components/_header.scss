@@ -3,8 +3,7 @@
 }
 
 .header__container {
-  display: flex;
-  align-items: center;
+  @extend %flex-align;
 }
 
 .header__list {
@@ -17,8 +16,7 @@
 }
 
 .header__link {
-  display: flex;
-  align-items: center;
+  @extend %flex-align;
 
   color: $SecondLinkColor;
 

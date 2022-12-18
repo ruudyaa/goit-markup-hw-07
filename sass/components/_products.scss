@@ -1,11 +1,6 @@
 .products__title {
   margin-bottom: 50px;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: $PrimaryHeadingColor;
+  @extend %secondary-heading;
 }
 
 .products__list {
@@ -27,11 +22,8 @@
   padding-bottom: 27px;
   width: 100%;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
+  @extend %additional-heading;
   text-align: center;
-  text-transform: uppercase;
 
   color: $SecondaryHeadingColor;
   background-color: rgba(47, 48, 58, 0.8);

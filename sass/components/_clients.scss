@@ -1,13 +1,6 @@
 .clients__title {
   margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: $PrimaryHeadingColor;
+  @extend %secondary-heading;
 }
 
 .clients__list {
@@ -16,9 +9,7 @@
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-align-justify;
   height: 92px;
   width: 170px;
   color: $FourthLinkColor;

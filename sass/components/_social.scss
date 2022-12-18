@@ -1,7 +1,5 @@
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-align-justify;
   column-gap: 10px;
 }
 
@@ -13,9 +11,7 @@
 .social__link {
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @extend %flex-align-justify;
   color: $FourthLinkColor;
   border-radius: 50%;
   fill: $FourthLinkColor;
