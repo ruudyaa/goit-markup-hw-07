@@ -45,7 +45,7 @@
   width: 30px;
   height: 30px;
 
-  @extend %flex-align-justify;
+  @include flex-align-justify;
 
   fill: $DarkFillColor;
   background-color: $LightBackgroundColor;
@@ -179,7 +179,7 @@
 }
 
 .form__policy {
-  @extend %flex-align;
+  @include flex-align;
 }
 
 .form__checkbox-policy {

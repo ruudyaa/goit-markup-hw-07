@@ -3,7 +3,7 @@
 }
 
 .header__container {
-  @extend %flex-align;
+  @include flex-align;
 }
 
 .header__list {
@@ -16,7 +16,7 @@
 }
 
 .header__link {
-  @extend %flex-align;
+  @include flex-align;
 
   color: $SecondLinkColor;
 

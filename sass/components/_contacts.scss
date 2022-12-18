@@ -8,8 +8,8 @@
 }
 
 .header__link {
-  @extend %flex-align;
-  @extend %header-link;
+  @include flex-align;
+  @include header-link;
 
   color: $SecondLinkColor;
 

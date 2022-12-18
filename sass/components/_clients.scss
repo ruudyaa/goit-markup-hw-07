@@ -1,6 +1,6 @@
 .clients__title {
   margin-bottom: 50px;
-  @extend %secondary-heading;
+  @include secondary-heading;
 }
 
 .clients__list {
@@ -9,7 +9,7 @@
 }
 
 .clients__link {
-  @extend %flex-align-justify;
+  @include flex-align-justify;
   height: 92px;
   width: 170px;
   color: $FourthLinkColor;

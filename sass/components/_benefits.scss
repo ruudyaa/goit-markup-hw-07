@@ -26,7 +26,7 @@
 }
 
 .benefits__image {
-  @extend %flex-align-justify;
+  @include flex-align-justify;
   margin-bottom: 30px;
   height: 120px;
   width: 270px;

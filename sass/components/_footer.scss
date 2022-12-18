@@ -90,15 +90,15 @@
 }
 
 .subscription-form__btn {
-  @extend %flex-align;
-  @extend %accent-btn;
+  @include flex-align;
+  @include accent-btn;
   padding-left: 28px;
   padding-right: 28px;
   height: 50px;
 
   &:hover,
   &:focus {
-    @extend %accent-btn-hover;
+    @include accent-btn-hover;
   }
 }
 
