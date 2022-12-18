@@ -801,7 +801,7 @@ body {
   padding: 63px 24px;
   font-size: 18px;
   line-height: 1.5555555556;
-  color: .portfolio__paragraph SecondaryHeadingColor;
+  color: #ffffff;
   background: rgba(33, 150, 243, 0.9);
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
@@ -810,6 +810,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio__link:hover .portfolio__paragraph {
   opacity: 1;
   -webkit-transform: translateY(0);
